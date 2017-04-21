@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="PlannedMMR" max_length="40" name="x_snc_kplanning_plannedmmr" type="collection">
+        <element label="Notes" max_length="5000" name="notes" type="string"/>
+        <element label="Short description" max_length="3000" name="short_description" type="string"/>
+        <element label="Team" max_length="200" name="team" reference="x_snc_kplanning_teams" type="string"/>
+    </element>
+</database>
